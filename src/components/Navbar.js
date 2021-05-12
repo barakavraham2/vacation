@@ -19,7 +19,7 @@ export const Navbarak = ({ user }) => {
                     {!user &&
                         <Nav className="justify-content-end">
                             <Nav.Item>
-                                <NavLink to="/registran" className="nav-item nav-link" >registran</NavLink>
+                                <NavLink to="/registran" className="nav-item nav-link" >Register</NavLink>
                             </Nav.Item>
 
                             <Nav.Item>
