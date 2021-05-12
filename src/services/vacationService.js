@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const apiEndPoint = 'http://localhost:3002/api/vacation'
+const apiEndPoint = 'https://glacial-taiga-22070.herokuapp.com/api/vacation'
 const axiosConfig = {
     headers: {
         'Content-Type': 'application/json',
@@ -13,7 +13,7 @@ export async function getVacations() {
 }
 export async function getLikesCountForReports() {
 
-    return axios.post('http://localhost:3002/api/vacation/count')
+    return axios.post('https://glacial-taiga-22070.herokuapp.com/api/vacation/count')
 }
 
 export async function setVacations(vacation) {
